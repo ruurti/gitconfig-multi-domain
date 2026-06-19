@@ -1,0 +1,9 @@
+[user]
+	email = user@users.noreply.com
+	name = user
+
+[includeIf "hasconfig:remote.*.url:git@github.com:**"]
+    path = ~/.gitconfig-github
+
+[includeIf "hasconfig:remote.*.url:git@git.xxx.com:**/**"]
+    path = ~/.gitconfig-company

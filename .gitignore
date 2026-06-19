@@ -1,0 +1,6 @@
+*.*
+!**/*.md
+!.gitignore
+!.gitconfig
+!.gitconfig-github
+!.gitconfig-company
